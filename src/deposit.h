@@ -1,12 +1,7 @@
 #ifndef DEPOSIT_H
 #define DEPOSIT_H
 
-struct Deposit{
-	int srok;
-	int vklad;
-};
-	
+int check(int day, int summa);
+double calc(int day, int summa);
+
 #endif
-
-void rashet(struct Deposit *dep);
-
