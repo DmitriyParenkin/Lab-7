@@ -1,10 +1,11 @@
 #include "ctest.h"
 #include "deposit.h"
+#include "deposit.c"
 
 // Whem summa = 99999
 const int summa = 99999;
 
-CTEST(calc, day29_summa99999)
+CTEST(calc, day29__summa99999)
 {
 	int day = 29;
 	double result = calc(day, summa);
